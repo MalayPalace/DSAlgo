@@ -26,7 +26,7 @@ public class MergeSort {
 	}
 
 	private static void merge(int[] values, int start, int middle, int end) {
-		if (values[middle - 1] < values[middle]) {
+		if (values[middle - 1] <= values[middle]) {
 			return;
 		}
 
